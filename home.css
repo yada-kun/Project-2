@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+}
+body{
+
+    background-image: linear-gradient(
+            rgba(34, 34, 34, 0.9),
+            rgba(34, 34, 34, 0.9)
+          ),
+          url('https://www.vmcdn.ca/f/files/guelphtoday/images/entertainment/shutterstock-music-theatre-stage.jpg;w=960');
+        background-size: cover;
+    }
+
+
+/* memory game container styling */
+.memory-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+    width: 1200px;
+    margin: 20vh auto;
+    padding:1em;
+    color: white;
+    background-color:rgba(169, 169, 169, 0.075);
+}
+
+.memory-game h1{
+    padding:1em;
+    font-size: 2em;
+    color: white;
+}
+
+.memory-game a{
+    text-decoration: none;
+    color: white;
+}
+
+.memory-game a:hover{
+    color: royalblue;
+}
+
+.instruction h2{
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.instruction p{
+    width: 660px;
+}
